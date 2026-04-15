@@ -1,0 +1,8 @@
+Model.py
+pyproject.toml
+src.py
+m2m_translation_api.egg-info/PKG-INFO
+m2m_translation_api.egg-info/SOURCES.txt
+m2m_translation_api.egg-info/dependency_links.txt
+m2m_translation_api.egg-info/requires.txt
+m2m_translation_api.egg-info/top_level.txt
