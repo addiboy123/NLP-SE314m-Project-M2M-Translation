@@ -1,0 +1,66 @@
+.language-tabs {
+  margin-bottom: 2rem;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.tab {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.source-tab.active-en {
+  background: linear-gradient(135deg, #4299e1, #3182ce);
+  color: white;
+  box-shadow: 0 4px 15px rgba(66, 153, 225, 0.3);
+}
+
+.source-tab.active-hi {
+  background: linear-gradient(135deg, #38a169, #2f855a);
+  color: white;
+  box-shadow: 0 4px 15px rgba(56, 161, 105, 0.3);
+}
+
+.target-tab.active-en {
+  background: linear-gradient(135deg, #4299e1, #3182ce);
+  color: white;
+  box-shadow: 0 4px 15px rgba(66, 153, 225, 0.3);
+}
+
+.target-tab.active-hi {
+  background: linear-gradient(135deg, #38a169, #2f855a);
+  color: white;
+  box-shadow: 0 4px 15px rgba(56, 161, 105, 0.3);
+}
+
+.tab-label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.tab-language {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tab-arrow {
+  font-size: 1.5rem;
+  color: #090a0a;
+  font-weight: bold;
+}

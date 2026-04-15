@@ -1,0 +1,70 @@
+.translator-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: whitesmoke;
+  padding: 2rem;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  position: relative;
+  overflow: visible; 
+}
+
+.translation-area {
+  display: flex;
+  position: relative;
+  margin-top: 2rem;
+  gap: 1rem;
+  width: 100%;
+  overflow: visible; 
+}
+
+.panel-wrapper {
+  flex: 1;
+  position: relative;
+  min-width: 0; 
+  overflow: visible;
+}
+
+.left-panel {
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.right-panel {
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.left-panel > div,
+.right-panel > div {
+  width: 100%;
+  height: 100%;
+}
+
+.flip-button-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.flip-button-overlay button {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  border: 3px solid white;
+}
+
+.error-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #fee;
+  color: #c33;
+  border-radius: 8px;
+  text-align: center;
+}
